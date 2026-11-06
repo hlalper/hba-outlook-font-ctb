@@ -1,0 +1,89 @@
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: #f3efe6;
+  color: #1c1b19;
+  font: 14px/1.45 "Segoe UI", sans-serif;
+}
+
+main {
+  padding: 18px 16px 28px;
+}
+
+.ust {
+  margin: 0;
+  color: #6d645b;
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+h1 {
+  margin: 2px 0 14px;
+  font-size: 22px;
+  font-weight: 650;
+}
+
+h2 {
+  margin: 16px 0 8px;
+  font-size: 13px;
+  font-weight: 650;
+}
+
+#durum, #uyari, #sonuc {
+  margin: 0 0 10px;
+}
+
+#uyari {
+  padding: 8px 10px;
+  background: #f3e1d4;
+  color: #6a2e22;
+}
+
+dl {
+  margin: 0;
+  display: grid;
+  grid-template-columns: 64px 1fr;
+  gap: 6px 10px;
+}
+
+dt {
+  color: #6d645b;
+}
+
+dd {
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+
+#dosya, #liste {
+  font-family: Consolas, "Cascadia Mono", monospace;
+  font-size: 12.5px;
+}
+
+#liste {
+  list-style: none;
+  margin: 0;
+  padding: 8px 10px;
+  max-height: 280px;
+  overflow: auto;
+  background: #fffdf8;
+  border: 1px solid #e2d9cc;
+}
+
+#liste li + li { margin-top: 4px; }
+
+button {
+  margin-top: 14px;
+  border: 0;
+  background: #8c3a2f;
+  color: #fffdf8;
+  padding: 8px 12px;
+  font: inherit;
+  cursor: pointer;
+}
+
+button:hover { background: #732f26; }
+
+[hidden] { display: none !important; }

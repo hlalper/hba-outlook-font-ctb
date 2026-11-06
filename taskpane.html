@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Font/CTB</title>
+  <link rel="stylesheet" href="taskpane.css">
+  <script src="https://appsforoffice.microsoft.com/lib/1/hosted/office.js"></script>
+  <script src="olay.js"></script>
+</head>
+<body>
+  <main>
+    <header>
+      <p class="ust">Proje paketi</p>
+      <h1>Font/CTB</h1>
+    </header>
+    <p id="durum">Paket okunuyor.</p>
+    <p id="uyari" hidden></p>
+    <dl id="kart" hidden>
+      <dt>Adres</dt>
+      <dd id="adres"></dd>
+      <dt>Dosya</dt>
+      <dd id="dosya"></dd>
+      <dt>Boyut</dt>
+      <dd id="boyut"></dd>
+      <dt>Tarih</dt>
+      <dd id="tarih"></dd>
+    </dl>
+    <section id="ic" hidden>
+      <h2>İçindekiler</h2>
+      <ul id="liste"></ul>
+    </section>
+    <button id="ekle" type="button" hidden>Linki bu mektuba koy</button>
+    <p id="sonuc"></p>
+  </main>
+  <script src="taskpane.js"></script>
+</body>
+</html>
